@@ -18,6 +18,14 @@
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
+      margin: 0;
+    }
+
+    .full-width-footer {
+      width: 100%;
+      position: fixed; /* Stays at the bottom of the viewport */
+      left: 0;
+      bottom: 0;
     }
   </style>
 </head>
@@ -59,70 +67,44 @@
       <!-- End Left Column -->
 
       <!-- Right Column -->
-    <div class="w3-twothird">
+      <div class="w3-twothird">
+        <div class="w3-container w3-card w3-white w3-margin-bottom">
 
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
+          <!-- Blog Post -->
+          <!-- Blog Post Header with Image -->
+          <header class="w3-container w3-white">
+            <h1 class="w3-text-blue-grey">Calendar Automations with Python and iCal</h1>
+          </header>
+          
+          <!-- Blog Post Image -->
+          <img src="https://via.placeholder.com/200" alt="Blog Image" style="width:200px; height:200px; margin: 20px;">
+          
+          <!-- Blog Post Content -->
+          <div class="w3-container">
+            <h5><span class="w3-opacity">October 24, 2024</span></h5>
+            <p>In this project I used Python to create an .ical file containing calendar events that automated my monthly study schedule with variations.</p>
+          </div>
 
-    <!-- Blog Post -->
-      <!-- Blog Post Header with Image -->
-      <header class="w3-container w3-white">
-        <h1 class="w3-text-blue-grey">Calendar Automations with Python and iCal</h1>
-      </header>
-      
-      <!-- Blog Post Image -->
-      <img src="https://via.placeholder.com/200" alt="Blog Image" style="width:200px; height:200px; margin: 20px;">
-      
-      <!-- Blog Post Content -->
-      <div class="w3-container">
-        <h5><span class="w3-opacity">October 24, 2024</span></h5>
-        <p>In this project I used Python to create an .ical file containing calendar events that automated my monthly study schedule with variations.</p>
+          <!-- Blog Post Main Content -->
+          <div class="w3-container">
+            <p>This project demonstrates my proficiency and command of the Python language and file structures.</p>
+            
+            <p>Integer aliquet, risus id facilisis ultrices, lacus magna pellentesque sapien, id dapibus sapien purus nec sem. Phasellus aliquet, nunc et volutpat ullamcorper, ex mi vulputate eros, id tincidunt nisl felis sit amet libero. Suspendisse nec vehicula ante. Etiam eget viverra neque, non iaculis dolor. Nulla at vestibulum metus. Vivamus vel efficitur purus, ac efficitur est.</p>
+          </div>
+        </div>
       </div>
+      <!-- End Right Column -->
 
-      <!-- Blog Post Main Content -->
-      <div class="w3-container">
-        <p>This project demonstrates my proficiency and command of the Python language and file structures.</p>
-        
-        <p>Integer aliquet, risus id facilisis ultrices, lacus magna pellentesque sapien, id dapibus sapien purus nec sem. Phasellus aliquet, nunc et volutpat ullamcorper, ex mi vulputate eros, id tincidunt nisl felis sit amet libero. Suspendisse nec vehicula ante. Etiam eget viverra neque, non iaculis dolor. Nulla at vestibulum metus. Vivamus vel efficitur purus, ac efficitur est.</p>
-      </div>
-    
-    <!-- End Blog Post -->
-    
-        <!-- Blog Post -->
-      
-      <!-- Blog Post Header with Image -->
-      <header class="w3-container w3-white">
-        <h1 class="w3-text-blue-grey">Project 2</h1>
-      </header>
-      
-      <!-- Blog Post Image -->
-      <img src="https://via.placeholder.com/200" alt="Blog Image" style="width:200px; height:200px; margin: 20px;">
-      
-      <!-- Blog Post Content -->
-      <div class="w3-container">
-        <h5><span class="w3-opacity">October 24, 2024</span></h5>
-        <p>In this project I used Python to create an .ical file containing calendar events that automated my monthly study schedule with variations.</p>
-      </div>
-
-      <!-- Blog Post Main Content -->
-      <div class="w3-container">
-        <p>This project demonstrates my proficiency and command of the Python language and file structures.</p>
-        
-        <p>Integer aliquet, risus id facilisis ultrices, lacus magna pellentesque sapien, id dapibus sapien purus nec sem. Phasellus aliquet, nunc et volutpat ullamcorper, ex mi vulputate eros, id tincidunt nisl felis sit amet libero. Suspendisse nec vehicula ante. Etiam eget viverra neque, non iaculis dolor. Nulla at vestibulum metus. Vivamus vel efficitur purus, ac efficitur est.</p>
-      </div>
-
+    </div>
+    <!-- End Grid -->
   </div>
+  <!-- End Page Container -->
 
-  <!-- End Grid -->
-  </div>
-  
-<!-- End Page Container -->
-</div>
-
-<footer class="w3-container w3-blue-grey w3-center" style="width: 100%; position: relative; left: 0; bottom: 0;">
-  <p>Find me on social media.</p>
-  <a href="https://www.linkedin.com/in/shannon-percival-smith/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
-</footer>
-
+  <!-- Full-width Footer -->
+  <footer class="w3-container w3-blue-grey w3-center full-width-footer">
+    <p>Find me on social media.</p>
+    <a href="https://www.linkedin.com/in/shannon-percival-smith/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </footer>
 
 </body>
 </html>
