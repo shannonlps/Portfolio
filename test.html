@@ -31,7 +31,6 @@
     .bold-text {
       font-weight: bold;
     }
-
   </style>
 </head>
 <body>
@@ -170,18 +169,143 @@
   </div>
   <!-- End Page Container -->
 
-<footer class="w3-bar w3-blue-grey w3-center full-width-footer" style="padding: 10px 0;">
-  <p style="margin: 0;">Find me on social media.</p>
-  <div style="display: flex; justify-content: center; margin-top: 10px;">
-    <a href="https://www.linkedin.com/in/shannon-percival-smith/" target="_blank" class="w3-bar-item w3-button w3-mobile" style="margin: 0 10px;">
-      <i class="fa fa-linkedin w3-hover-opacity" style="font-size: 24px;"></i>
-    </a>
-    <a href="https://github.com/shannonlps" target="_blank" class="w3-bar-item w3-button w3-mobile" style="margin: 0 10px;">
-      <i class="fa fa-github w3-hover-opacity" style="font-size: 24px;"></i>
-    </a>
-  </div>
-  <p style="margin: 0; margin-top: 10px;">© 2024 Shannon Percival Smith</p>
-</footer>
+  <footer class="w3-bar w3-blue-grey w3-center full-width-footer" style="padding: 10px 0;">
+    <p style="margin: 0;">Find me on social media.</p>
+    <div style="display: flex; justify-content: center; margin: 10px 0;">
+      <a href="https://www.linkedin.com/in/your-profile" class="w3-button w3-blue-grey w3-margin-right" target="_blank"><i class="fa fa-linkedin"></i></a>
+      <a href="https://github.com/your-profile" class="w3-button w3-blue-grey w3-margin-right" target="_blank"><i class="fa fa-github"></i></a>
+      <a href="https://twitter.com/your-profile" class="w3-button w3-blue-grey" target="_blank"><i class="fa fa-twitter"></i></a>
+    </div>
+    <button class="w3-button w3-blue-grey" onclick="downloadHtml()">Download HTML Code</button>
+  </footer>
 
-</body>
-</html>
+  <script>
+    function downloadHtml() {
+      const htmlContent = `
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shannon Percival Smith</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" href="/images/link.png">
+        <style>
+          html, body, h1, h2, h3, h4, h5, h6 {
+            font-family: "Lato", sans-serif;
+          }
+          body {
+            background-image: url('/images/background-white.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+          }
+          .w3-content {
+            flex: 1;
+          }
+          .bold-text {
+            font-weight: bold;
+          }
+        </style>
+      </head>
+      <body>
+        <div class="w3-bar w3-blue-grey w3-center" style="display: flex; justify-content: center; padding: 10px 0;">
+          <a href="index.html" class="w3-bar-item w3-button w3-mobile">Home</a>
+          <a href="#about" class="w3-bar-item w3-button w3-mobile">About</a>
+          <a href="projects.html" class="w3-bar-item w3-button w3-mobile">Projects</a>
+          <a href="#contact" class="w3-bar-item w3-button w3-mobile">Contact</a>
+          <a href="/files/Resume.pdf" class="w3-bar-item w3-button w3-mobile">Resume</a>
+        </div>
+        <div class="w3-content w3-margin-top" style="max-width:1400px;">
+          <div class="w3-row-padding">
+            <div class="w3-third">
+              <div class="w3-white w3-text-grey w3-card-4">
+                <div class="w3-display-container">
+                  <img src="/images/photo.jpg" style="width:100%" alt="Profile Photo">
+                  <div class="w3-display-bottomleft w3-container w3-text-white">
+                    <h2>Shannon Percival Smith</h2>
+                  </div>
+                </div>
+                <div class="w3-container">
+                  <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-blue-grey"></i>Data Science</p>
+                  <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-blue-grey"></i>Vancouver, BC</p>
+                  <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-blue-grey"></i>slpsmith@uw.edu</p>
+                  <hr>
+                </div>
+              </div>
+              <br>
+            </div>
+            <div class="w3-twothird">
+              <div class="w3-container w3-card w3-white w3-margin-bottom">
+                <header class="w3-container w3-white">
+                  <h1 class="w3-text-blue-grey">Calendar Automations with Python and iCal</h1>
+                </header>
+                <img src="images/icalproject.jpg" alt="iCal Project" style="width:200px; height:200px; margin: 20px;">
+                <div class="w3-container">
+                  <h5><span class="w3-opacity">October 24, 2024</span></h5>
+                  <p>In this project I used Python to create an .ical file containing calendar events that automated my monthly study schedule with variations.</p>
+                </div>
+                <div class="w3-container">
+                  <p class="bold-text">Introduction</p>
+                  <p>In this post, I’ll be sharing how I used Python to automate my study schedule with a calendar project. This project is a demonstration of how programming can simplify repetitive tasks and save time, making my workflow more efficient.</p>
+                </div>
+                <div class="w3-container">
+                  <p class="bold-text">Project Overview</p>
+                  <p>The goal was to create a system that automates calendar events for efficient study planning. I aimed to reduce the manual effort of scheduling and make adjustments to my study routine seamless and hassle-free.</p>
+                </div>
+                <div class="w3-container">
+                  <p class="bold-text">Process/Approach</p>
+                  <p>I utilized Python scripts to generate `.ical` files that could be easily imported into any calendar app. The approach focused on designing a user-friendly solution that requires minimal setup while offering flexibility in scheduling.</p>
+                </div>
+                <div class="w3-container">
+                  <p class="bold-text">Key Features/Highlights</p>
+                  <ul>
+                    <li>Automated event generation.</li>
+                    <li>Customizable schedule patterns.</li>
+                    <li>User-friendly interface for importing files.</li>
+                  </ul>
+                </div>
+                <div class="w3-container">
+                  <p class="bold-text">Challenges and Solutions</p>
+                  <p>One challenge was ensuring compatibility across multiple calendar applications. I tackled this by testing with different software to identify common formats and standards. Another challenge was creating customizable patterns while maintaining simplicity in user inputs, which I managed through well-structured code and clear documentation.</p>
+                </div>
+                <div class="w3-container">
+                  <p class="bold-text">Results/Outcomes</p>
+                  <p>The automated system saved me over 10 hours a month, streamlining my workflow and allowing me to focus more on studying. This project successfully demonstrated the potential of automation in everyday tasks.</p>
+                </div>
+                <div class="w3-container">
+                  <p class="bold-text">Visuals/Examples</p>
+                  <p>Below are screenshots of the script in action and the final `.ical` file imported into my calendar. These visuals illustrate the automation process and its impact on my study schedule.</p>
+                  <img src="https://via.placeholder.com/400x200" alt="Script Example" style="width:100%; margin-top: 10px;">
+                </div>
+                <div class="w3-container">
+                  <p class="bold-text">Reflection/Lessons Learned</p>
+                  <p>Through this project, I learned the value of simplifying repetitive tasks and gained deeper insight into Python's calendar libraries. I also appreciated the importance of designing solutions that are adaptable to various user needs.</p>
+                </div>
+                <div class="w3-container">
+                  <p class="bold-text">Next Steps/Future Plans</p>
+                  <p>In the future, I’m considering integrating with Google Calendar's API for real-time updates and exploring additional customization options. This would make the system even more dynamic and responsive to changes.</p>
+                </div>
+                <div class="w3-container">
+                  <p class="bold-text">Conclusion</p>
+                  <p>This project was both challenging and rewarding, solidifying my interest in automation tools. It not only helped me manage my study schedule more efficiently but also showcased the versatility of Python in everyday applications.</p>
+                </div>
+                <div class="w3-container">
+                  <p class="bold-text">Take a Look</p>
+                  <p>Feel free to check out the code on my <a href="https://github.com/your-profile" target="_blank">GitHub</a> or reach out if you have similar project ideas. I’d love to hear your thoughts and suggestions!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="w3-bar w3-blue-grey w3-center full-width-footer" style="padding: 10px 0;">
+          <p style="margin: 0;">Find me on social media.</p>
+          <div style="display: flex; justify-content: center; margin: 10px 0;">
+            <a href="https://www.linkedin.com/in/your-profile" class="w3-button w3-blue-grey w3-margin-right" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/your-profile" class="w3-button
