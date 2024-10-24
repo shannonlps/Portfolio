@@ -25,15 +25,9 @@
     }
 
     .w3-content {
-      flex: 1; /* Ensures the content area expands to fill the available space */
+      flex: 1;
     }
 
-    .full-width-footer {
-      width: 100%;
-      position: absolute; /* Changed to absolute */
-      left: 0;
-      bottom: 0;
-    }
   </style>
 </head>
 <body>
@@ -173,11 +167,13 @@
   </div>
   <!-- End Page Container -->
 
-  <!-- Full-width Footer -->
-  <footer class="w3-container w3-blue-grey w3-center full-width-footer">
-    <p>Find me on social media.</p>
-    <a href="https://www.linkedin.com/in/shannon-percival-smith/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
-  </footer>
+<!-- Full-width Footer -->
+<footer class="w3-bar w3-blue-grey w3-center full-width-footer" style="display: flex; justify-content: center; padding: 10px 0;">
+  <p style="margin: 0;">Find me on social media.</p>
+  <a href="https://www.linkedin.com/in/shannon-percival-smith/" target="_blank" class="w3-bar-item w3-button w3-mobile" style="padding-left: 10px;">
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </a>
+</footer>
 
 </body>
 </html>
